@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
 public class CashbackHackServiceTest {
     CashbackHackService service = new CashbackHackService();
 
+
     @Test
     public void shouldCorrectAmount() {
         int amount = 2100;
@@ -31,6 +32,4 @@ public class CashbackHackServiceTest {
         int expected = 0;
         assertEquals(actual, expected);
     }
-
-
 }
